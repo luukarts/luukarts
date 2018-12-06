@@ -1,0 +1,70 @@
+body {
+    background: #F5F5F6;
+    font-family: 'Source Sans Pro', sans-serif;
+
+}
+
+header {
+    background-image: url("https://www.ret.nl/fileadmin/user_upload/afbeeldingen/Fotobeelden_totaal/Reizigers_bij_poortjes_metro_1920x642.jpg");
+    padding: 10em;
+}
+
+
+nav {
+    background: #fff;
+    width: 100%;
+    display: flex;
+    overflow: hidden;
+    margin: 0;
+}
+
+nav img {
+    margin-top: 0em;
+    width: 20%;
+}
+
+article {
+    border-radius: 5px;
+    width: 20em;
+    border: 0px solid blue;
+    padding: 1em;
+    transition: 1s;
+    background-color: #fff;
+    box-shadow: 0 10px 30px 0 rgba(35, 31, 32, .1);
+
+}
+
+article img {
+    width: 100%;
+    width: calc(100% + 2em);
+    margin-left: -1em;
+    margin-top: -1em;
+    opacity: 0.8;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+    background-color: linear-gradient(150deg, rgb(0, 71, 127) 0px, rgb(0, 157, 219) 100%);
+
+
+}
+
+article h3 a {
+    font-size: 18px; /*hahah is niet standaard groote van website LOL*/
+    font-weight: normal;
+    color: #00477f;
+    text-decoration: none;
+    border-bottom: 2px #ed1a2d solid;
+    padding: 0px 60px 8px 0px;
+}
+
+h3 {
+    color: #00477f;
+    text-decoration: none;
+    padding-bottom: 10px;
+}
+
+
+
+/* article:hover {
+  transform: rotate(360deg);
+  filter: hue-rotate(180deg);
+}
